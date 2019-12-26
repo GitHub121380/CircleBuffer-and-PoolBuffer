@@ -16,7 +16,7 @@ public class PoolFrame {
 
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("缓冲工作池模拟实现");
+        JFrame frame = new JFrame("缓冲池");
         Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setSize(d.width / 2, d.height / 2);
         frame.setLocation(800, 100);

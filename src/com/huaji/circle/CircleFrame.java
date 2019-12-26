@@ -18,7 +18,7 @@ public class CircleFrame {
         RunnableNextg nextg = new RunnableNextg(circleBuffer);
 
         //画框
-        JFrame frame = new JFrame("循环缓冲");
+        JFrame frame = new JFrame("循环缓冲队列");
         Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setSize(dimension.width/2,dimension.height/2+200);
         frame.setLocation(50,50);
