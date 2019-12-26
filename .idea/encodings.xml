@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/huaji/circle/RunnableNextg.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/huaji/circle/RunnableNexti.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/huaji/pool/Runnableehin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/huaji/pool/Runnablehout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/huaji/pool/Runnablesin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/huaji/pool/Runnablesout.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

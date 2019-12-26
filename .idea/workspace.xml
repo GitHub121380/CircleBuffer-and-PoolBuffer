@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2c98414-2e15-44c8-b729-7868228d8848" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CircleBuffer-and-PoolBuffer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/circle/Buffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/circle/CircleBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/circle/CircleFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/circle/RunnableNextg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/circle/RunnableNexti.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PaintAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PoolBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PoolFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PoolFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PoolFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PoolFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/PoolFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/Runnableehin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/Runnablehout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/Runnablesin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CircleBuffer-and-PoolBuffer/com/huaji/pool/Runnablesout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/META-INF/OSDemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/circle/Buffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/circle/CircleBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/circle/CircleFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/circle/RunnableNextg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/circle/RunnableNexti.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PaintAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PoolBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PoolFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PoolFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PoolFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PoolFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/PoolFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/Runnableehin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/Runnablehout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/Runnablesin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/huaji/pool/Runnablesout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OSDemo/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/PoolFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/PaintAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/awt/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2736">
+              <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>15</find>
+      <find>RED</find>
+      <find>GREEN</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>10</replace>
+      <replace>GREEN</replace>
+      <replace>BLUE</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Workspaces-idea\OSDemo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/huaji/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/MainFrame.form" />
+        <option value="$PROJECT_DIR$/src/com/huaji/CircleBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/Circle.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/Circle.form" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/Frame.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/Buffer.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/Launch.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/RunnableNextg.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/RunnableNexti.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/CircleBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/Runnablesout.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/Runnableehin.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/Runnablehout.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/Runnablesin.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/Sin.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/PoolBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/circle/CircleFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/PoolFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/huaji/pool/PaintAll.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CircleBuffer-and-PoolBuffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CircleBuffer-and-PoolBuffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CircleBuffer-and-PoolBuffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CircleBuffer-and-PoolBuffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CircleBuffer-and-PoolBuffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CircleBuffer-and-PoolBuffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="huaji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CircleBuffer-and-PoolBuffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CircleBuffer-and-PoolBuffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="huaji" type="462c0819:PsiDirectoryNode" />
+              <item name="circle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CircleBuffer-and-PoolBuffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CircleBuffer-and-PoolBuffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="huaji" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huaji.pool" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspaces-idea\OSDemo\src\com\huaji\pool" />
+      <recent name="D:\Workspaces-idea\OSDemo\src\com\huaji\circle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.PoolFrame">
+    <configuration name="CircleFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaji.circle.CircleFrame" />
+      <module name="CircleBuffer-and-PoolBuffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaji.circle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaji.circle.Launch" />
+      <module name="CircleBuffer-and-PoolBuffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaji.circle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaji.MainFrame" />
+      <module name="CircleBuffer-and-PoolBuffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaji.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoolFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaji.pool.PoolFrame" />
+      <module name="CircleBuffer-and-PoolBuffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaji.pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PoolFrame" />
+        <item itemvalue="Application.CircleFrame" />
+        <item itemvalue="Application.Launch" />
+        <item itemvalue="Application.MainFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c98414-2e15-44c8-b729-7868228d8848" name="Default Changelist" comment="" />
+      <created>1577331968585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577331968585</updated>
+      <workItem from="1577331971893" duration="18480000" />
+      <workItem from="1577354516283" duration="485000" />
+    </task>
+    <task id="LOCAL-00001" summary="2019-12-26 滑技工厂提交&#10;   对环形缓冲区和缓冲池的模拟和实现">
+      <created>1577354898050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577354898050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18965000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.17770036" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067115" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3096591" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019-12-26 滑技工厂提交&#10;   对环形缓冲区和缓冲池的模拟和实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-12-26 滑技工厂提交&#10;   对环形缓冲区和缓冲池的模拟和实现" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/Main.java" />
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/awt/event/WindowAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/MainFrame.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/CircleBuffer.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/CircleBuffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/Circle.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/MainFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/circle/Launch.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/circle/RunnableNextg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/circle/RunnableNexti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/Runnableehin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/Runnablehout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/Runnablesin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/circle/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/circle/CircleBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/Runnablesout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/PoolBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/circle/CircleFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/PoolFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CircleBuffer-and-PoolBuffer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huaji/pool/PaintAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CircleBuffer-and-PoolBuffer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
