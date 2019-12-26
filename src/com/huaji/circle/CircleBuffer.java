@@ -42,7 +42,7 @@ public class CircleBuffer extends JPanel {
      * @return java.awt.Graphics
      * @throws
      */
-    public Graphics modifyi(Graphics graphics, int i) {
+    public void modifyi(int i) {
         switch (i) {
             case 0:
                 g.setColor(Color.RED);
@@ -71,7 +71,7 @@ public class CircleBuffer extends JPanel {
             default:
                 break;
         }
-        return graphics;
+
     }
 
     /*
@@ -83,37 +83,31 @@ public class CircleBuffer extends JPanel {
      * @return java.awt.Graphics
      * @throws
      */
-    public Graphics modifyt(Graphics graphics, int i) {
+    public void modifyt(int i) {
+        g.setColor(Color.YELLOW);
         switch (i) {
             case 0:
-                g.setColor(Color.GREEN);
                 g.fillOval(x + 200 - 35, y - 35, 50, 50);
                 break;
             case 1:
-                g.setColor(Color.GREEN);
                 g.fillOval(x - 173 + 200 - 35, y + 100 - 35, 50, 50);
                 break;
             case 2:
-                g.setColor(Color.GREEN);
                 g.fillOval(x - 173 + 200 - 35, y + 300 - 35, 50, 50);
                 break;
             case 3:
-                g.setColor(Color.GREEN);
                 g.fillOval(x + 200 - 35, y + 400 - 35, 50, 50);
                 break;
             case 4:
-                g.setColor(Color.GREEN);
                 g.fillOval(x + 200 + 173 - 35, y + 300 - 35, 50, 50);
                 break;
             case 5:
-                g.setColor(Color.GREEN);
                 g.fillOval(x + 200 + 173 - 35, y + 100 - 35, 50, 50);
                 break;
-
             default:
                 break;
         }
-        return graphics;
+
     }
 
 
@@ -129,7 +123,8 @@ public class CircleBuffer extends JPanel {
     public int getBuf(int type) {
         g = getGraphics();
 
-        g.drawString("红色为正在使用中的缓冲区", x + 200 + 250, y + 100 + 50);
+        g.drawString("黄色为正在使用的缓冲区", x + 200 + 250, y + 100 + 20);
+        g.drawString("红色为满的缓冲区", x + 200 + 250, y + 100 + 50);
         g.drawString("绿色为已经释放的缓冲区", x + 200 + 250, y + 100 + 80);
 
         //画缓冲区
@@ -146,17 +141,17 @@ public class CircleBuffer extends JPanel {
         g.drawOval(x + 200 + 173 - 35, y + 100 - 35, 50, 50);
         g.drawString("5号缓冲区", x + 200 + 173 - 35, y + 100 - 35);
 
+
         switch (type) {
             //获得空的缓冲区进行使用
             case 1:
                 this.buffers[nexti] = new Buffer("进程");
 
-
                 if (flag == false) {
                     nextg = nexti;
                     flag = true;
                 }
-                modifyi(g, nexti);
+                modifyi(nexti);
                 System.out.println("已经将数据装入缓冲区" + nexti);
                 this.nexti = (nexti + 1) % size;
 
@@ -184,15 +179,38 @@ public class CircleBuffer extends JPanel {
                 }
 
                 this.current = this.nextg;
-                modifyt(g, nextg);
-                System.out.println("正在使用缓冲区" + current + "中的数据");
-                Releasebuf(this.nextg);
-
+                modifyt(nextg);
                 try {
                     Thread.sleep(2000);
+                    g.setColor(Color.GREEN);
+                    switch (current) {
+                        case 0:
+                            g.fillOval(x + 200 - 35, y - 35, 50, 50);
+                            break;
+                        case 1:
+                            g.fillOval(x - 173 + 200 - 35, y + 100 - 35, 50, 50);
+                            break;
+                        case 2:
+                            g.fillOval(x - 173 + 200 - 35, y + 300 - 35, 50, 50);
+                            break;
+                        case 3:
+                            g.fillOval(x + 200 - 35, y + 400 - 35, 50, 50);
+                            break;
+                        case 4:
+                            g.fillOval(x + 200 + 173 - 35, y + 300 - 35, 50, 50);
+                            break;
+                        case 5:
+                            g.fillOval(x + 200 + 173 - 35, y + 100 - 35, 50, 50);
+                            break;
+                        default:
+                            break;
+                    }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+                System.out.println("正在使用缓冲区" + current + "中的数据");
+                Releasebuf(this.nextg);
+
 
                 return this.nextg - 1;
             default:
