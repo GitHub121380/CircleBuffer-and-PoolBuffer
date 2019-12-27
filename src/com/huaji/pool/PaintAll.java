@@ -2,12 +2,13 @@ package com.huaji.pool;
 
 import javax.swing.*;
 import java.awt.*;
+
 /**
+ * @author 张佳乐
+ * @version 1.0
  * @ClassName
  * @Description 缓冲池画画
- * @author 张佳乐
  * @date 2019/12/22
- * @version 1.0
  */
 public class PaintAll extends JPanel {
     public int emqlength = 10;
@@ -64,12 +65,12 @@ public class PaintAll extends JPanel {
             g.drawString(String.valueOf(i), 415 + i * 30, 100);
 
         }
-        g.drawString("inq 队列", 400, 340);
+        g.drawString("inq 队列", 400, 210);
         for (int i = 0; i < 10; i++) {
             g.drawRect(400 + i * 30, 360, 30, 30);
             g.drawString(String.valueOf(i), 415 + i * 30, 360);
         }
-        g.drawString("outq 队列", 400, 210);
+        g.drawString("outq 队列", 400, 340);
         for (int i = 0; i < 10; i++) {
             g.drawRect(400 + i * 30, 230, 30, 30);
             g.drawString(String.valueOf(i), 415 + i * 30, 230);

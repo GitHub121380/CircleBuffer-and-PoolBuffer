@@ -6,7 +6,7 @@ import java.awt.*;
 /**
  * @ClassName CircleBuffer
  * @Description 循环缓冲
- * @author 滑技工厂
+ * @author 滑技工厂 张佳乐
  * @date 2019/12/20
  * @version 1.0
  */
