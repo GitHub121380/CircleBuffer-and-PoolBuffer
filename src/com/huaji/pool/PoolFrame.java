@@ -24,7 +24,7 @@ public class PoolFrame {
         JButton hin = new JButton("收容输入");
         hin.setBounds(100, 100, 50, 50);
         bufferPool.add(hin);
-        JButton sin = new JButton("提取输出");
+        JButton sin = new JButton("提取输入");
         bufferPool.add(sin);
         JButton hout = new JButton("收容输出");
         bufferPool.add(hout);
@@ -52,7 +52,7 @@ public class PoolFrame {
                         e1.printStackTrace();
                     }
                     bufferPool.setqueue(bufferPool.emqlength, 100);
-                    bufferPool.setpool(137, 197, Color.RED);
+                    bufferPool.setpool(137, 197, Color.YELLOW);
 
                     bufferPool.modifyinq(bufferPool.inqlength, Color.RED);
                     bufferPool.setInqlength(bufferPool.inqlength + 1);
@@ -69,7 +69,7 @@ public class PoolFrame {
                 if (bufferPool.inqlength>0) {
                     bufferPool.modifyinq(0, Color.white);
                     bufferPool.setInqlength((bufferPool.inqlength-1));
-                    bufferPool.setpool(270, 197, Color.RED);
+                    bufferPool.setpool(270, 197, Color.YELLOW);
                     bufferPool.setpoolwhite(270, 197);
                     bufferPool.modifyinq(bufferPool.inqlength, Color.white);
                     try {
@@ -94,7 +94,7 @@ public class PoolFrame {
 
 
                     bufferPool.setOutqlength(bufferPool.outqlength-1);
-                    bufferPool.setpool(137, 273, Color.RED);
+                    bufferPool.setpool(137, 273, Color.YELLOW);
 
                     bufferPool.setpoolwhite(137, 273);
                     bufferPool.modifyoutq(bufferPool.outqlength, Color.white);
@@ -128,7 +128,7 @@ public class PoolFrame {
                         e1.printStackTrace();
                     }
                     bufferPool.setqueue(bufferPool.emqlength,100);
-                    bufferPool.setpool(270,273, Color.RED);
+                    bufferPool.setpool(270,273, Color.YELLOW);
 
                     bufferPool.modifyoutq(bufferPool.outqlength, Color.RED);
                     bufferPool.setOutqlength(bufferPool.outqlength+1);
